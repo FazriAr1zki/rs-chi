@@ -22,7 +22,7 @@ const doctorsData = [
     reviews: 120,
     schedule: ["Senin", "Rabu", "Jumat"],
     time: "08:00 - 12:00",
-    image: "//rs-chi/images/doctor-1.jpeg",
+    image: "/rs-chi/images/doctor-1.jpeg",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const doctorsData = [
     reviews: 95,
     schedule: ["Selasa", "Kamis", "Sabtu"],
     time: "09:00 - 13:00",
-    image: "//rs-chi/images/doctor-2.png",
+    image: "/rs-chi/images/doctor-2.png",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const doctorsData = [
     reviews: 150,
     schedule: ["Senin", "Selasa", "Kamis"],
     time: "14:00 - 18:00",
-    image: "//rs-chi/images/doctor-3.png",
+    image: "/rs-chi/images/doctor-3.png",
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ const doctorsData = [
     reviews: 88,
     schedule: ["Rabu", "Jumat", "Sabtu"],
     time: "10:00 - 14:00",
-    image: "//rs-chi/images/doctor-4.png",
+    image: "/rs-chi/images/doctor-4.png",
   },
 ]
 
@@ -113,7 +113,7 @@ export default function CariDokterPage() {
             <Link href="/" className="flex items-center space-x-3">
               <div className="w-12 h-12 flex items-center justify-center">
                 <img
-                  src="//rs-chi/images/cipta-hospital-logo.png"
+                  src="/rs-chi/images/cipta-hospital-logo.png"
                   alt="RS Cipta Hospital Indonesia Logo"
                   className="w-12 h-12 object-contain"
                 />
@@ -317,7 +317,7 @@ export default function CariDokterPage() {
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 flex items-center justify-center">
                   <img
-                    src="//rs-chi/images/cipta-hospital-logo.png"
+                    src="/rs-chi/images/cipta-hospital-logo.png"
                     alt="RS Cipta Hospital Indonesia Logo"
                     className="w-10 h-10 object-contain"
                   />
