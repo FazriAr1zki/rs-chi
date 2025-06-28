@@ -1,0 +1,198 @@
+{
+  "hospital": {
+    "name": "PT Cipta Hospital Indonesia",
+    "tagline": "Melayani dengan Hati",
+    "contact": {
+      "phone": "(021) 1234-5678",
+      "email": "info@ciptahospital.co.id",
+      "address": "Jl. Kesehatan No. 123, Jakarta"
+    },
+    "stats": {
+      "doctors": "50+",
+      "patients": "10,000+",
+      "beds": "200+",
+      "operatingRooms": "15",
+      "rating": "4.8/5",
+      "reviews": "1000+"
+    }
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "Poliklinik Umum",
+      "description": "Pemeriksaan kesehatan umum dan konsultasi medis",
+      "icon": "fas fa-stethoscope"
+    },
+    {
+      "id": 2,
+      "name": "Kardiologi",
+      "description": "Spesialis jantung dan pembuluh darah",
+      "icon": "fas fa-heart"
+    },
+    {
+      "id": 3,
+      "name": "Gawat Darurat",
+      "description": "Pelayanan emergency 24 jam setiap hari",
+      "icon": "fas fa-ambulance"
+    },
+    {
+      "id": 4,
+      "name": "Pediatri",
+      "description": "Spesialis kesehatan anak dan bayi",
+      "icon": "fas fa-baby"
+    },
+    {
+      "id": 5,
+      "name": "Radiologi",
+      "description": "Pemeriksaan X-Ray, CT Scan, dan MRI",
+      "icon": "fas fa-x-ray"
+    },
+    {
+      "id": 6,
+      "name": "Laboratorium",
+      "description": "Pemeriksaan lab lengkap dan akurat",
+      "icon": "fas fa-flask"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. M Nur Khanib, Sp.JP",
+      "specialty": "Kardiologi",
+      "hospital": "Cipta Hospital Jakarta",
+      "experience": "15 tahun",
+      "education": "Universitas Indonesia",
+      "rating": 4.8,
+      "reviews": 120,
+      "schedule": ["Senin", "Rabu", "Jumat"],
+      "time": "08:00 - 12:00",
+      "image": "images/doctor-1.jpeg",
+      "bio": "Spesialis jantung berpengalaman dengan keahlian dalam kardiologi intervensi dan elektrofisiologi.",
+      "certifications": [
+        "Spesialis Jantung dan Pembuluh Darah",
+        "Fellowship Kardiologi Intervensi",
+        "Sertifikat Elektrofisiologi Jantung"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dr. M Fazri Arizki, Sp.A",
+      "specialty": "Pediatri",
+      "hospital": "Cipta Hospital Jakarta",
+      "experience": "12 tahun",
+      "education": "Universitas Gadjah Mada",
+      "rating": 4.9,
+      "reviews": 95,
+      "schedule": ["Selasa", "Kamis", "Sabtu"],
+      "time": "09:00 - 13:00",
+      "image": "images/doctor-2.png",
+      "bio": "Dokter spesialis anak yang berpengalaman dalam menangani berbagai kondisi kesehatan anak dan bayi.",
+      "certifications": ["Spesialis Anak", "Sertifikat Neonatologi", "Pelatihan Tumbuh Kembang Anak"]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Reaval Galih P, Sp.PD",
+      "specialty": "Penyakit Dalam",
+      "hospital": "Cipta Hospital Jakarta",
+      "experience": "18 tahun",
+      "education": "Universitas Airlangga",
+      "rating": 4.7,
+      "reviews": 150,
+      "schedule": ["Senin", "Selasa", "Kamis"],
+      "time": "14:00 - 18:00",
+      "image": "images/doctor-3.png",
+      "bio": "Internist senior dengan keahlian khusus dalam penanganan penyakit metabolik dan endokrin.",
+      "certifications": ["Spesialis Penyakit Dalam", "Fellowship Endokrinologi", "Sertifikat Diabetes Mellitus"]
+    },
+    {
+      "id": 4,
+      "name": "Dr. Farha Lubbi R, Sp.OG",
+      "specialty": "Obstetri & Ginekologi",
+      "hospital": "Cipta Hospital Jakarta",
+      "experience": "10 tahun",
+      "education": "Universitas Padjadjaran",
+      "rating": 4.8,
+      "reviews": 88,
+      "schedule": ["Rabu", "Jumat", "Sabtu"],
+      "time": "10:00 - 14:00",
+      "image": "images/doctor-4.png",
+      "bio": "Spesialis kandungan dan kebidanan dengan fokus pada kesehatan reproduksi wanita dan persalinan.",
+      "certifications": [
+        "Spesialis Obstetri & Ginekologi",
+        "Sertifikat Ultrasonografi Obstetri",
+        "Pelatihan Fertilitas dan Reproduksi"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Helipad & Layanan Helicopter",
+      "description": "Fasilitas helipad modern untuk evakuasi medis darurat dan transportasi pasien kritis dengan akses cepat ke rumah sakit.",
+      "image": "images/helipad.jpeg",
+      "icon": "fas fa-helicopter",
+      "features": [
+        "Helipad berstandar internasional",
+        "Layanan evakuasi medis 24/7",
+        "Tim medis terlatih untuk transportasi udara",
+        "Koordinasi dengan layanan emergency"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kamar Pasien Premium",
+      "description": "Kamar pasien modern dengan fasilitas lengkap, pemandangan kota, dan peralatan medis terdepan untuk kenyamanan optimal.",
+      "image": "images/patient-room.jpeg",
+      "icon": "fas fa-bed",
+      "features": [
+        "Kamar dengan pemandangan kota",
+        "Tempat tidur elektrik modern",
+        "Sistem monitoring terintegrasi",
+        "Fasilitas pendamping keluarga"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ruang Tunggu & Lobby",
+      "description": "Area tunggu yang nyaman dan modern dengan desain yang menenangkan, dilengkapi fasilitas untuk kenyamanan pasien dan keluarga.",
+      "image": "images/waiting-area.jpeg",
+      "icon": "fas fa-users",
+      "features": [
+        "Desain interior yang menenangkan",
+        "Seating area yang nyaman",
+        "Area hijau dengan tanaman",
+        "WiFi gratis dan charging station"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Unit Gawat Darurat",
+      "description": "Unit gawat darurat dengan teknologi terdepan dan tim medis berpengalaman yang siap menangani kasus emergency 24 jam.",
+      "image": "images/emergency-room.jpeg",
+      "icon": "fas fa-heartbeat",
+      "features": [
+        "Peralatan medis canggih",
+        "Tim medis emergency bersertifikat",
+        "Sistem triage yang efisien",
+        "Ruang resusitasi lengkap"
+      ]
+    }
+  ],
+  "quickInfo": [
+    {
+      "title": "Buka 24 Jam",
+      "description": "Layanan gawat darurat tersedia 24/7",
+      "icon": "fas fa-clock"
+    },
+    {
+      "title": "Dokter Berpengalaman",
+      "description": "Tim medis profesional dan bersertifikat",
+      "icon": "fas fa-users"
+    },
+    {
+      "title": "Akreditasi Nasional",
+      "description": "Standar pelayanan bermutu tinggi",
+      "icon": "fas fa-award"
+    }
+  ]
+}
