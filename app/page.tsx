@@ -30,7 +30,7 @@ export default function HomePage() {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 flex items-center justify-center">
                 <img
-                  src="/images/cipta-hospital-logo.png"
+                  src="//rs-chi/images/cipta-hospital-logo.png"
                   alt="RS Cipta Hospital Indonesia Logo"
                   className="w-12 h-12 object-contain"
                 />
@@ -100,7 +100,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="bg-green-100 rounded-2xl p-8">
                 <img
-                  src="/images/hospital-building.jpeg"
+                  src="//rs-chi/images/hospital-building.jpeg"
                   alt="Rumah Sakit PT Cipta Hospital Indonesia"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
@@ -289,7 +289,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/images/hospital-building.jpeg"
+                src="//rs-chi/images/hospital-building.jpeg"
                 alt="Gedung PT Cipta Hospital Indonesia"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -374,7 +374,7 @@ export default function HomePage() {
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 flex items-center justify-center">
                   <img
-                    src="/images/cipta-hospital-logo.png"
+                    src="//rs-chi/images/cipta-hospital-logo.png"
                     alt="RS Cipta Hospital Indonesia Logo"
                     className="w-10 h-10 object-contain"
                   />

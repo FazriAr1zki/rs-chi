@@ -10,7 +10,7 @@ const facilities = [
     title: "Helipad & Layanan Helicopter",
     description:
       "Fasilitas helipad modern untuk evakuasi medis darurat dan transportasi pasien kritis dengan akses cepat ke rumah sakit.",
-    image: "/images/helipad.jpeg",
+    image: "//rs-chi/images/helipad.jpeg",
     icon: Plane,
     features: [
       "Helipad berstandar internasional",
@@ -24,7 +24,7 @@ const facilities = [
     title: "Kamar Pasien Premium",
     description:
       "Kamar pasien modern dengan fasilitas lengkap, pemandangan kota, dan peralatan medis terdepan untuk kenyamanan optimal.",
-    image: "/images/patient-room.jpeg",
+    image: "//rs-chi/images/patient-room.jpeg",
     icon: Bed,
     features: [
       "Kamar dengan pemandangan kota",
@@ -38,7 +38,7 @@ const facilities = [
     title: "Ruang Tunggu & Lobby",
     description:
       "Area tunggu yang nyaman dan modern dengan desain yang menenangkan, dilengkapi fasilitas untuk kenyamanan pasien dan keluarga.",
-    image: "/images/waiting-area.jpeg",
+    image: "//rs-chi/images/waiting-area.jpeg",
     icon: Users,
     features: [
       "Desain interior yang menenangkan",
@@ -52,7 +52,7 @@ const facilities = [
     title: "Unit Gawat Darurat",
     description:
       "Unit gawat darurat dengan teknologi terdepan dan tim medis berpengalaman yang siap menangani kasus emergency 24 jam.",
-    image: "/images/emergency-room.jpeg",
+    image: "//rs-chi/images/emergency-room.jpeg",
     icon: Activity,
     features: [
       "Peralatan medis canggih",
@@ -73,7 +73,7 @@ export default function FasilitasPage() {
             <Link href="/" className="flex items-center space-x-3">
               <div className="w-12 h-12 flex items-center justify-center">
                 <img
-                  src="/images/cipta-hospital-logo.png"
+                  src="//rs-chi/images/cipta-hospital-logo.png"
                   alt="RS Cipta Hospital Indonesia Logo"
                   className="w-12 h-12 object-contain"
                 />
@@ -272,7 +272,7 @@ export default function FasilitasPage() {
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 flex items-center justify-center">
                   <img
-                    src="/images/cipta-hospital-logo.png"
+                    src="//rs-chi/images/cipta-hospital-logo.png"
                     alt="RS Cipta Hospital Indonesia Logo"
                     className="w-10 h-10 object-contain"
                   />

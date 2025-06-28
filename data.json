@@ -66,7 +66,7 @@
       "reviews": 120,
       "schedule": ["Senin", "Rabu", "Jumat"],
       "time": "08:00 - 12:00",
-      "image": "images/doctor-1.jpeg",
+      "image": "/rs-chi/images/doctor-1.jpeg",
       "bio": "Spesialis jantung berpengalaman dengan keahlian dalam kardiologi intervensi dan elektrofisiologi.",
       "certifications": [
         "Spesialis Jantung dan Pembuluh Darah",
@@ -85,7 +85,7 @@
       "reviews": 95,
       "schedule": ["Selasa", "Kamis", "Sabtu"],
       "time": "09:00 - 13:00",
-      "image": "images/doctor-2.png",
+      "image": "/rs-chi/images/doctor-2.png",
       "bio": "Dokter spesialis anak yang berpengalaman dalam menangani berbagai kondisi kesehatan anak dan bayi.",
       "certifications": ["Spesialis Anak", "Sertifikat Neonatologi", "Pelatihan Tumbuh Kembang Anak"]
     },
@@ -100,7 +100,7 @@
       "reviews": 150,
       "schedule": ["Senin", "Selasa", "Kamis"],
       "time": "14:00 - 18:00",
-      "image": "images/doctor-3.png",
+      "image": "/rs-chi/images/doctor-3.png",
       "bio": "Internist senior dengan keahlian khusus dalam penanganan penyakit metabolik dan endokrin.",
       "certifications": ["Spesialis Penyakit Dalam", "Fellowship Endokrinologi", "Sertifikat Diabetes Mellitus"]
     },
@@ -115,7 +115,7 @@
       "reviews": 88,
       "schedule": ["Rabu", "Jumat", "Sabtu"],
       "time": "10:00 - 14:00",
-      "image": "images/doctor-4.png",
+      "image": "/rs-chi/images/doctor-4.png",
       "bio": "Spesialis kandungan dan kebidanan dengan fokus pada kesehatan reproduksi wanita dan persalinan.",
       "certifications": [
         "Spesialis Obstetri & Ginekologi",
@@ -129,7 +129,7 @@
       "id": 1,
       "name": "Helipad & Layanan Helicopter",
       "description": "Fasilitas helipad modern untuk evakuasi medis darurat dan transportasi pasien kritis dengan akses cepat ke rumah sakit.",
-      "image": "images/helipad.jpeg",
+      "image": "/rs-chi/images/helipad.jpeg",
       "icon": "fas fa-helicopter",
       "features": [
         "Helipad berstandar internasional",
@@ -142,7 +142,7 @@
       "id": 2,
       "name": "Kamar Pasien Premium",
       "description": "Kamar pasien modern dengan fasilitas lengkap, pemandangan kota, dan peralatan medis terdepan untuk kenyamanan optimal.",
-      "image": "images/patient-room.jpeg",
+      "image": "/rs-chi/images/patient-room.jpeg",
       "icon": "fas fa-bed",
       "features": [
         "Kamar dengan pemandangan kota",
@@ -155,7 +155,7 @@
       "id": 3,
       "name": "Ruang Tunggu & Lobby",
       "description": "Area tunggu yang nyaman dan modern dengan desain yang menenangkan, dilengkapi fasilitas untuk kenyamanan pasien dan keluarga.",
-      "image": "images/waiting-area.jpeg",
+      "image": "/rs-chi/images/waiting-area.jpeg",
       "icon": "fas fa-users",
       "features": [
         "Desain interior yang menenangkan",
@@ -168,7 +168,7 @@
       "id": 4,
       "name": "Unit Gawat Darurat",
       "description": "Unit gawat darurat dengan teknologi terdepan dan tim medis berpengalaman yang siap menangani kasus emergency 24 jam.",
-      "image": "images/emergency-room.jpeg",
+      "image": "/rs-chi/images/emergency-room.jpeg",
       "icon": "fas fa-heartbeat",
       "features": [
         "Peralatan medis canggih",
