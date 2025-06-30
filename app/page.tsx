@@ -30,7 +30,7 @@ export default function HomePage() {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 flex items-center justify-center">
                 <img
-                  src="/rs-chi/images/cipta-hospital-logo.png"
+                  src="../images/cipta-hospital-logo.png"
                   alt="RS Cipta Hospital Indonesia Logo"
                   className="w-12 h-12 object-contain"
                 />
