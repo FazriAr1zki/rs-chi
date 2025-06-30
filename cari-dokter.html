@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cari Dokter - PT Cipta Hospital Indonesia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <a href="index.html">
+                        <img src="public/images/cipta-hospital-logo.png" alt="RS Cipta Hospital Indonesia Logo" class="logo">
+                        <div class="logo-text">
+                            <h1>PT Cipta Hospital Indonesia</h1>
+                            <p>Melayani dengan Hati</p>
+                        </div>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="index.html#beranda">Beranda</a>
+                    <a href="index.html#layanan">Layanan</a>
+                    <a href="cari-dokter.html" class="active">Cari Dokter</a>
+                    <a href="fasilitas.html">Fasilitas</a>
+                    <a href="index.html#tentang">Tentang Kami</a>
+                    <a href="index.html#kontak">Kontak</a>
+                    <button class="btn btn-primary">Buat Janji</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Beranda</a>
+            <i class="fas fa-chevron-right"></i>
+            <span>Cari Dokter</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="doctor-search-page">
+        <div class="container">
+            <div class="search-layout">
+                <!-- Filter Sidebar -->
+                <aside class="filter-sidebar">
+                    <div class="filter-card">
+                        <h3>Filter Pencarian</h3>
+                        <div class="filter-group">
+                            <label>Pilih Rumah Sakit</label>
+                            <select id="hospitalFilter">
+                                <option value="">Semua Rumah Sakit</option>
+                                <option value="Cipta Hospital Jakarta">Cipta Hospital Jakarta</option>
+                                <option value="Cipta Hospital Bekasi">Cipta Hospital Bekasi</option>
+                                <option value="Cipta Hospital Tangerang">Cipta Hospital Tangerang</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Pilih Spesialis</label>
+                            <select id="specialtyFilter">
+                                <option value="">Semua Spesialis</option>
+                                <option value="Kardiologi">Kardiologi</option>
+                                <option value="Pediatri">Pediatri</option>
+                                <option value="Penyakit Dalam">Penyakit Dalam</option>
+                                <option value="Obstetri & Ginekologi">Obstetri & Ginekologi</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Pilih Dokter</label>
+                            <div class="search-input">
+                                <input type="text" id="doctorSearch" placeholder="Ketik nama dokter">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" onclick="filterDoctors()">Cari Dokter</button>
+                    </div>
+                </aside>
+
+                <!-- Results -->
+                <section class="search-results">
+                    <div class="results-header">
+                        <h1>Cari Dokter</h1>
+                        <p id="resultsCount">Menampilkan 4 dokter</p>
+                    </div>
+                    <div id="doctorResults" class="doctor-grid">
+                        <!-- Doctor cards will be populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="public/images/cipta-hospital-logo.png" alt="RS Cipta Hospital Indonesia Logo">
+                        <div>
+                            <h3>PT Cipta Hospital</h3>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                    <p>Melayani dengan hati untuk kesehatan yang lebih baik</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li>Poliklinik Umum</li>
+                        <li>Gawat Darurat</li>
+                        <li>Spesialis</li>
+                        <li>Laboratorium</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li>Tentang Kami</li>
+                        <li>Karir</li>
+                        <li>Berita</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <div class="contact-info">
+                        <p>(021) 1234-5678</p>
+                        <p>info@ciptahospital.co.id</p>
+                        <p>Jl. Kesehatan No. 123, Jakarta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PT Cipta Hospital Indonesia. All rights reserved.</p>
+                <p class="developer-credit">Developed by Muhamad Fazri Arizki</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="doctors.js"></script>
+</body>
+</html>
